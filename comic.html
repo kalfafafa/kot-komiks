@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Тапок или Кот-философ — Читать комикс</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #ffc0cb url('https://i.imgur.com/1Th59ZL.png') repeat;
+      color: #4b1a3b;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      text-align: center;
+      text-shadow: 1px 1px 3px #b36b9e;
+    }
+
+    .chapter-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 200px;
+    }
+
+    .chapter-btn {
+      background-color: #f9a3c0;
+      border: none;
+      border-radius: 15px;
+      font-size: 1.2em;
+      padding: 12px 20px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px #d775a4;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .chapter-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px #d775a4;
+    }
+
+    .paw {
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Тапок или Кот-философ</h1>
+
+  <div class="chapter-list">
+    <button class="chapter-btn" onclick="location.href='chapter1.html'"><span class="paw">🐾</span> 1 глава</button>
+    <button class="chapter-btn" onclick="location.href='chapter2.html'"><span class="paw">🐾</span> 2 глава</button>
+    <button class="chapter-btn" onclick="location.href='chapter3.html'"><span class="paw">🐾</span> 3 глава</button>
+  </div>
+
+</body>
+</html>
